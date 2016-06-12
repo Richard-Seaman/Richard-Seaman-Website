@@ -1,0 +1,74 @@
+body {
+    background-color: #E7E8E8;
+}
+
+
+.divider {
+    border-top: 2px solid #bbb;
+}
+
+
+.project {
+	height:400px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+.project-left {
+	height:100%;
+}
+
+.project-right {
+	height:100%;
+}
+
+
+ul.project-list {
+	height:100%;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+ul.project-list li
+{
+    text-align: center;
+    display: table-row;
+}
+
+.project-list h1, 
+.project-list h2, 
+.project-list h3, 
+.project-list p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project-skills {
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+img.project {
+	width:250px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+a.badge {
+	margin:0px;
+	padding:0px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+a.badge img {
+	height: 45px; 
+	width:auto;
+}

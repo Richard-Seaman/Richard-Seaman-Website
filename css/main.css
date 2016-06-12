@@ -7,6 +7,19 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10px;
+  color: #000;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 20px 0 20px;
+  color: #000;
+}
+
 header {
   padding: 20px 0;
 }
@@ -17,88 +30,6 @@ footer .row {
   align-items: center;
 }
 
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-color: #E7E8E8;
-  background-size: cover;
-  color: #ffffff;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
-  margin-bottom:0px;
-  padding:20px;
-}
-
-.jumbotron h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 10px;
-  color: #000;
-}
-
-.jumbotron h3 {
-  font-size: 2rem;
-  margin: 20px 0 20px;
-  color: #000;
-}
-
-#profile {
-	height:200px;
-	width: 200px;
-	border: 5px solid #44B1F8;
-	border-radius: 50%;
-}
-
-#main_buttons {	
-	margin:0px;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	max-width:1400px;
-	
-}
-
-#main_buttons figure {
-	padding-top:20px;
-	padding-bottom:20px;
-}
-
-
-section .row img {
-  width: 100%;
-}
-
-figure p {
-    font-size: 2rem;
-    color: #000;
-}
-
-.figure_active {
-	background-color:#44B1F8;
-  	-webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
-}
-.figure_active p {
-	color:fff;
-}
-.figure_active img {
-  -webkit-transform: rotate(2deg); -moz-transform: rotate(2deg);
-}
 
 footer {
   font-size: 12px;
@@ -120,3 +51,7 @@ footer ul {
   	height: 32px;
 }
 
+
+.content {
+  margin-top: 50px;
+}
