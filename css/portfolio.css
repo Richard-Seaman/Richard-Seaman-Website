@@ -15,11 +15,11 @@ body {
 }
 
 
-.project-left {
+.project-desc {
 	height:100%;
 }
 
-.project-right {
+.project-visual {
 	height:100%;
 }
 
@@ -54,10 +54,16 @@ ul.project-list li
 }
 
 img.project {
-	width:250px;
-	height:250px;
+	width:220px;
+	height:220px;
+	padding:20px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:20px;
+	border: 5px solid #666;
+	border-radius: 20px;
+	background-color:#DFF6FF;
+  	-webkit-box-shadow: 0 3px 10px #5FA3E3; -moz-box-shadow: 0 3px 10px #666;
 }
 
 
@@ -67,6 +73,7 @@ a.badge {
 	margin-left:5px;
 	margin-right:5px;
 }
+
 
 a.badge img {
 	height: 45px; 
