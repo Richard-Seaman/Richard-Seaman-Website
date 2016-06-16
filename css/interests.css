@@ -31,3 +31,31 @@
   
 }
 
+
+/* Featurettes
+------------------------- */
+.featurette {
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom:20px;
+}
+
+.featurette-image {
+  	-webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+	border-radius:10px;
+	
+}
+
+
+
