@@ -1,0 +1,87 @@
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: #E7E8E8;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom:0px;
+  padding:20px;  
+}
+
+.jumbotron h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10px;
+  color: #000;
+}
+
+.jumbotron h3 {
+  font-size: 2rem;
+  margin: 20px 0 20px;
+  color: #000;
+}
+
+img.profile {
+	height:200px;
+	width: 200px;
+}
+
+
+
+
+/* Featurettes
+------------------------- */
+.featurette {
+  margin-left: 50px; 
+  margin-right: 50px; 
+  padding-top:40px;
+  padding-bottom:40px;
+  border-bottom: 1px solid #bbb;
+}
+
+.featurette-divider {
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom:20px;
+}
+
+.featurette-image {
+  	-webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+	border-radius:10px;
+	
+}
+
+
+div.caption {
+  margin:0px;
+  padding:0px;
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+
+p.caption {
+	margin-top:20px;
+  text-align:center;
+  font-size: 2rem;
+  font-weight:500;
+}
+
+.pre-xy-scrollable {
+    overflow: auto;
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: pre;
+    max-height: 400px;
+}
+
+

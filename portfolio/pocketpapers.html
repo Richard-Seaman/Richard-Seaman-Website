@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  	<title>Portfolio</title>
+  	<meta charset="utf-8"/>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
+  	<link rel="stylesheet" type="text/css" href="../css/main.css">
+  	<link rel="stylesheet" type="text/css" href="../css/projects.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js"   integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo="   crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+    <script type='text/javascript' src='../js/projects.js'></script>
+	
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Richard Seaman</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../portfolio.html">PORTFOLIO</a></li>
+            <li><a href="../education.html">EDUCATION</a></li>
+            <li><a href="../interests.html">INTERESTS</a></li>
+            <li><a href="../contact.php">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div class="content">
+
+		<!--/ Project Icon -->
+	  	<section class="jumbotron">
+		  	<div class="container">
+			  	<div class="row text-center">
+					<img class="profile" src="../img/PocketPapers.png"/>			
+	    		</div>
+	  		</div>
+	  	</section>
+
+		<!--/ Project Caption -->
+        <div class="featurette caption row">
+		    <p class="quote lead caption">Accessing past examination material has never been so easy.</p>  
+        </div>
+
+		<!--/ Project Intro -->
+        <div class="row featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">Time for Change</h2>
+            	<p class="lead">When my younger sister was studying for her Junior Certificate, I saw her using the same poorly designed website I had used over 10 years ago to access past papers. I was amazed that nobody had fixed it yet!</p>
+				<p class="lead">I did some research and quickly discovered that students and teachers alike were fed up with www.examinations.ie (the official source of past papers).<p> 
+				<p class="lead">It was time for somebody to do something.<p>
+				<p class="lead">It was time for <span class="quote">Pocket Papers</span>.<p>            
+	        </div>
+			<!--/ Video -->
+	        <div class="col-md-6">
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe width="560" height="315" src="https://www.youtube.com/embed/w6q5Stc74bU?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>            
+	        </div>
+        </div>
+		
+		<!--/ Concept -->
+        <div class="row featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">To the Drawing Board</h2>
+            	<p class="lead">The most important part of any <span class="quote">nerding station</span>; the blank canvas. Before writing any code, I always put pen to paper (or marker to board).</p>
+				<p class="lead">I believe the most important consideration for any app is the end user experience. Simple is beautiful. Everything else is secondary. Unfortunately, simple is not always easy.<p> 
+				<p class="lead">I set a goal for myself:<br>Anything the user wants should be no more than 3 taps away and ALL of the past examination material needs to be available.<p>
+				<p class="lead">This goal ultimately shaped both the front and back end of the app and allowed me to start drawing.<p>            
+	        </div>
+	        <div class="col-md-6">
+            	<img class="featurette-image img-responsive center-block" src="../img/whiteboard.JPG" alt="White Board">       
+	        </div>
+        </div>			
+		
+		<!--/ Content -->
+        <div class="row featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">Content Collation</h2>
+            	<p class="lead">So what exactly does <span class="quote">"All of the past examination material"</span> consist of?</p>
+				<p class="lead">Turns out it's quite a lot. Over 45 Leaving Certificate subjects and 25 Junior Certificate subjects. Each subject has higher and ordinary levels and some also have a foundation level. Some subjects have multiple papers each year (such as maths papers 1 & 2). All of the language subjects have aural exams that require an audio mp3 file to answer. Some subjects have additional content such as ordinance survey maps for geography. There's over 15 years worth of content to get through. And by the way, everything is also available in irish. All in all, there's thousands and thousand of documents to be gathered and collated.<p> 
+				<p class="lead">I decided that instead of simply pointing in the right direction of the content, I was going to host it myself. This would give me full control of the content and would elimate my reliance on a third party's website. (This decision came after the SEC <span class="quote">attempted</span> to prevent their website being used for exactly this purpose, but that's another story...)<p>
+            	<p class="lead">The official website is tedious to use. Luckily, programs don't mind tedious tasks. I used some of my excel wizardry (Visual Basic) to scrape the website and automatically download and collate the majority of the material. There was still some manual collation required but the work was massively reduced. The end result was an SQL file ready to be imported to a database. It was also a tool that could be used year after year to grab new examination material once it's released. Sweet!</p>				          
+	        </div>
+	        <div class="col-md-6">
+            	<img class="featurette-image img-responsive center-block" src="../img/content.png" alt="White Board">       
+	        </div>
+        </div>
+		
+		<!--/ API -->
+        <div class="row featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">Make the Data Available</h2>
+            	<p class="lead">With a trove of neatly arranged material available and a database to match, it was time to implement the API.</p>
+				<p class="lead">I opted for a shared hosting package (with Register365) that was reasonably priced and offered unlimited bandwidth / databases etc. I used an FTP solution (Filezilla) to upload all of the aquired material and imported my SQL database within phpMyAdmin.<p> 
+				<p class="lead">I developed a RESTful API for my apps to access the data. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.<p>
+            	<p class="lead">Easy.</p>				          
+	        </div>
+	        <div class="col-md-6">
+            	<pre class="pre-xy-scrollable">
+// Typical PHP file below:
+
+&lt;?php
+/*  
+	Author : 		Richard Seaman
+	Created: 		17-05-2015   
+	Description:	This file returns the available exam papers, in JSON format
+			Any errors are returned as {"Error": "Error message here"} 
+			Required:		
+			$db_name, $db_user, $db_password, $server_url
+*/
+
+header('Content-type: application/json');
+
+// Note: "****" added for confidentiality (not actually checking for *'s)
+if($_POST['****'] == "****") {
+
+// Set up connection
+require 'databaseConfiguration.php';
+
+// Create connection
+$conn = new mysqli($server_url, $db_user, $db_password, $db_name);
+
+// Check connection
+if ($conn->connect_error) {
+	$errorArray = array("Error" => "Connection failed: " . $conn->connect_error);
+	die (json_encode($errorArray));
+}
+
+// Prepare SQL statement
+$stmt = "SELECT * 
+	FROM ExamPapers";
+
+// Create JSON from the result		
+$resultArray = array();
+if ($result = $conn->query($stmt)) {
+	$tempArray = array();
+	while($row = $result->fetch_object()) {
+		$tempArray = $row;
+		array_push($resultArray, $tempArray);
+	}
+	// Return the json.
+	echo json_encode($resultArray);
+}
+$result->close();
+
+// Close connection
+$conn->close();
+		
+}
+
+?&gt;</pre>      
+	        </div>
+        </div>
+        
+		
+	</div>
+
+
+  	<footer class="container">
+  		<div class="row">
+    		<p class="col-sm-4">&copy; 2016 Richard Seaman</p>
+    		<ul class="col-sm-8">
+    			<li class="col-sm-1">
+					<a href="https://ie.linkedin.com/in/richard-seaman-9b4b1160" title="LinkedIn link">
+						<img class="social-icon" src="../img/linkedIn.png" onmouseover="this.src='../img/linkedIn-hover.png'" onmouseout="this.src='../img/linkedIn.png'"/>
+					</a>
+				</li>
+    			<li class="col-sm-1">
+					<a href="https://github.com/Richard-Seaman" title="Github link">
+						<img class="social-icon" src="../img/github.png" onmouseover="this.src='../img/github-hover.png'" onmouseout="this.src='../img/github.png'"/>
+					</a>
+				</li>
+    		</ul>
+  		</div>
+	</footer>
+
+
+</body>
+</html>
