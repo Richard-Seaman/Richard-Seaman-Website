@@ -76,10 +76,24 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="dropdown">
+              <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio.html">Overview</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Apps</li>
+                <li><a href="portfolio/pocketpapers.html">Pocket Papers</a></li>
+                <li><a href="#">Pocket TGD</a></li>
+                <li><a href="#">Building Services Toolbox</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Excel Wizardry</li>
+                <li><a href="#">Ayla</a></li>
+                <li><a href="#">Email Filer</a></li>
+              </ul>
+            </li>
             <li><a href="education.html">EDUCATION</a></li>
             <li><a href="interests.html">INTERESTS</a></li>
-            <li class="active"><a href="contact.html">CONTACT</a></li>
+            <li class="active"><a href="contact.php">CONTACT</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

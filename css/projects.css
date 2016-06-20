@@ -31,6 +31,10 @@ img.profile {
 }
 
 
+.spacer {
+	margin-top:40px;
+	margin-bottom:40px;
+}
 
 
 /* Featurettes
@@ -43,8 +47,6 @@ img.profile {
   border-bottom: 1px solid #bbb;
 }
 
-.featurette-divider {
-}
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -82,6 +84,37 @@ p.caption {
     overflow-wrap: normal;
     white-space: pre;
     max-height: 400px;
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  width:100%
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0px;
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  	background-color: #E7E8E8;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  padding:0px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  height: 500px;
+  
 }
 
 

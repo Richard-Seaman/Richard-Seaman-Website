@@ -34,7 +34,21 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="../portfolio.html">PORTFOLIO</a></li>
+            <li class="active dropdown">
+              <a href="../portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../portfolio.html">Overview</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Apps</li>
+                <li><a href="../portfolio/pocketpapers.html">Pocket Papers</a></li>
+                <li><a href="#">Pocket TGD</a></li>
+                <li><a href="#">Building Services Toolbox</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Excel Wizardry</li>
+                <li><a href="#">Ayla</a></li>
+                <li><a href="#">Email Filer</a></li>
+              </ul>
+            </li>
             <li><a href="../education.html">EDUCATION</a></li>
             <li><a href="../interests.html">INTERESTS</a></li>
             <li><a href="../contact.php">CONTACT</a></li>
@@ -95,12 +109,12 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">Content Collation</h2>
             	<p class="lead">So what exactly does <span class="quote">"All of the past examination material"</span> consist of?</p>
-				<p class="lead">Turns out it's quite a lot. Over 45 Leaving Certificate subjects and 25 Junior Certificate subjects. Each subject has higher and ordinary levels and some also have a foundation level. Some subjects have multiple papers each year (such as maths papers 1 & 2). All of the language subjects have aural exams that require an audio mp3 file to answer. Some subjects have additional content such as ordinance survey maps for geography. There's over 15 years worth of content to get through. And by the way, everything is also available in irish. All in all, there's thousands and thousand of documents to be gathered and collated.<p> 
+				<p class="lead">Turns out it's quite a lot. Over 40 Leaving Certificate subjects and 25 Junior Certificate subjects. Each subject has higher and ordinary levels and some also have a foundation level. Some subjects have multiple papers each year (such as maths papers 1 & 2). All of the language subjects have aural exams that require an audio mp3 file to answer. Some subjects have additional content such as ordinance survey maps for geography. There's over 15 years worth of content to get through. And by the way, everything is also available in irish. All in all, there's thousands and thousand of documents to be gathered and collated.<p> 
 				<p class="lead">I decided that instead of simply pointing in the right direction of the content, I was going to host it myself. This would give me full control of the content and would elimate my reliance on a third party's website. (This decision came after the SEC <span class="quote">attempted</span> to prevent their website being used for exactly this purpose, but that's another story...)<p>
             	<p class="lead">The official website is tedious to use. Luckily, programs don't mind tedious tasks. I used some of my excel wizardry (Visual Basic) to scrape the website and automatically download and collate the majority of the material. There was still some manual collation required but the work was massively reduced. The end result was an SQL file ready to be imported to a database. It was also a tool that could be used year after year to grab new examination material once it's released. Sweet!</p>				          
 	        </div>
 	        <div class="col-md-6">
-            	<img class="featurette-image img-responsive center-block" src="../img/content.png" alt="White Board">       
+            	<img class="featurette-image img-responsive center-block" src="../img/content.png" alt="Excel Database Creator">       
 	        </div>
         </div>
 		
@@ -110,7 +124,7 @@
 				<h2 class="featurette-heading">Make the Data Available</h2>
             	<p class="lead">With a trove of neatly arranged material available and a database to match, it was time to implement the API.</p>
 				<p class="lead">I opted for a shared hosting package (with Register365) that was reasonably priced and offered unlimited bandwidth / databases etc. I used an FTP solution (Filezilla) to upload all of the aquired material and imported my SQL database within phpMyAdmin.<p> 
-				<p class="lead">I developed a RESTful API for my apps to access the data. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.<p>
+				<p class="lead">I developed a RESTful API for my apps to access the data. I developed the API locally (using MAMP) before making it live. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.<p>
             	<p class="lead">Easy.</p>				          
 	        </div>
 	        <div class="col-md-6">
@@ -169,10 +183,126 @@ $conn->close();
 ?&gt;</pre>      
 	        </div>
         </div>
-        
+		
+		
+		<!--/ iOS -->
+        <div class="row featurette">
+
+	        <div class="row">
+		        <div class="col-md-6">
+					<h2 class="featurette-heading">iOS Development</h2>
+	            	<p class="lead">Now for the really fun stuff!</p>
+					<p class="lead">During the early concept stage I had designed and laid out my storyboard. Every screen and transistion had been mapped out so it was just a case of coding it up and getting the polish out. My focus remained on ensuring the user could get to anything they wanted with the minimum number of taps. <p> 
+					<p class="lead">Once I had the app working within Xcode and on simulators, I moved on to actual iOS devices. The app is available on iPhone, iPad and iPod touch. Every screen size and orientation was tested and re-tested.<p>
+	            	<p class="lead"></p>				          
+		        </div>
+		        <div class="col-md-6">
+	            	<img class="featurette-image img-responsive center-block" src="../img/iOSDev-content.png" alt="Sketch vs Final">       
+		        </div>
+			</div>
+
+	        <div class="spacer"></div>
+
+	        <div class="row">
+		        <div class="col-md-6">
+	            	<p class="lead">Obviously, you can never foresee every issue and the final design will always differ slightly from the initial (and continously develop over time).</p>
+					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).<p> 
+					<p class="lead">The App Store screenshots provided show the most up to date design of the app.<p>
+	            	<p class="lead"></p>				          
+		        </div>
+		        <div class="col-md-6">
+				    <!-- Carousel
+				    ================================================== -->
+				    <div id="iOSCarousel" class="carousel slide col-md-12" data-ride="carousel">
+				      <!-- Indicators -->
+				      <ol class="carousel-indicators">
+				        <li data-target="#iOSCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#iOSCarousel" data-slide-to="1"></li>
+				        <li data-target="#iOSCarousel" data-slide-to="2"></li>
+				        <li data-target="#iOSCarousel" data-slide-to="3"></li>
+				        <li data-target="#iOSCarousel" data-slide-to="4"></li>
+				        <li data-target="#iOSCarousel" data-slide-to="5"></li>
+				      </ol>
+				      <div class="carousel-inner" role="listbox">
+			  	        <div class="item active">
+			  	          <img src="../img/iOS/Home.png" alt="Home">
+			  	        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Subjects.png" alt="Subjects">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/SubjectOptions.png" alt="Subject Content">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Paper.png" alt="Paper">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Content.png" alt="Content">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Aural.png" alt="Aural">
+				        </div>
+				      <a class="left carousel-control" href="#iOSCarousel" role="button" data-slide="prev">
+				        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				        <span class="sr-only">Previous</span>
+				      </a>
+				      <a class="right carousel-control" href="#iOSCarousel" role="button" data-slide="next">
+				        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				        <span class="sr-only">Next</span>
+				      </a>
+				    </div><!-- /.carousel -->       
+		        </div>
+			    
+			</div>
+        </div>        
+		
 		
 	</div>
-
+	
+	
+	<!--/ Business Model -->
+    <div class="row featurette">
+        <div class="col-md-6">
+			<h2 class="featurette-heading">Business Model</h2>
+        	<p class="lead">I knew that I would have to implement some form of business model if Pocket Papers was to be sustainable. I had already incurred a number of expenses between software packages, hardware (devices) and renting a server. Between the Leaving and Junior Certificates, there's a guaranteed throughput of approximately 120,000 students each year. Not to mention all of the teachers. It's a significant, stable market.</p>
+			<p class="lead">I toyed around with (and implemented) a number of business models. I briefly considered using ads but I'm not a big fan of them (I also don't think I've ever clicked on one...). I also considered an annual subscription service but ruled it out as most students will only use it for a year or two anyway. Better to avoid the complexity of subscription services (especially since StoreKit is less than helpful with them). Customers are also more likely to purchase if it's a once off cost, particularly teachers who can use it year after year.<p> 
+			<p class="lead">I decided to go with a freemium model. Users could download the app and use all of the latest year's content for free. This allowed them to familiarise themselves with the app before committing to a purchase. If they wished, they could then purchase <span class="quote">Premium Access</span> which unlocks all of the content for every year for every subject for life.<p>
+        	<p class="lead">I thought about managing the purchases myself but I prefer to avoid sign-in screens if possible (for the UX, not the technicalities). Being responsible for transactions didn't appeal to me very much. However, neither did Apple's 30% take. In the end I bit the bullet and implemented a non-consumable in-app purchase, as per Apple's guidelines. I suppose all of their development, distribution and analysis tools are worth the 30%.</p>				          
+        </div>
+        <div class="col-md-6">
+        	<img class="featurette-image img-responsive center-block" src="../img/business.png" alt="Itunes Connect">       
+        </div>
+    </div>
+	
+	
+	<!--/ Marketing -->
+    <div class="row featurette">
+        <div class="col-md-6">
+			<h2 class="featurette-heading">Marketing</h2>
+        	<p class="lead">I launched Pocket Papers for iOS in April 2015. However, launching an app is only the beginning. I needed to market it!</p>
+			<p class="lead">First things first, get a <a href="http://www.pocketpapers.ie" target="_blank">website</a> up and running, complete with a contact page for customer support. And do it fast. Thank you very much Wordpress.</p> 
+			<p class="lead">Next up, populate it with nice screenshots and a demonstrational video. I did this using software such as iMovie, Logoist 2, Paint 2 and Promotee. I also set up an App page on facebook and ran a number of paid advertisment campaigns.</p>
+        	<p class="lead">I created a promotional poster and printed out and laminated a few hundred A3 copies. I visited schools around my local area and gave presentations to students and teachers, making sure to leave behind a few posters every where I went.</p>
+        	<p class="lead">I contacted various media agencies and was delighted to be featured in The Journal's <a href="http://www.thejournal.ie/5-apps-31st-oct-2015-2416910-Oct2015/"  target="_blank">"5 apps worth downloading this week"</a> article in October 2015.</p>	
+        	<p class="lead">The most technical form of marketing was another piece of Excel Wizardry. I found a website which teachers use to apply for jobs in schools around the country. It has details for every secondary school in the country including principal's name, contact number, school address and email address. Jackpot!! I wrote a program to scrape the required information and send off an email to each school. I was suprised with the number of responses (I was afraid I'd end up in the spam folder). Soon, schools all over the country were benefitting from Pocket Papers.</p>		          
+        </div>
+        <div class="col-md-6">
+        	<img class="featurette-image img-responsive center-block" src="../img/Marketing.png" alt="Marketing">       
+        </div>
+    </div>
+	
+	<!--/ Android -->
+    <div class="row featurette">
+        <div class="col-md-6">
+			<h2 class="featurette-heading">Demand for Android</h2>
+        	<p class="lead">With the sucess of Pocket Papers on iOS came the demand for an Android release. Android accounted for a significant chunk of my market, not having Pocket Papers available for it simply wasn't an option. There was one issue though. I had hardly ever used an Android device, never mind written an app for one.</p>
+        	<p class="lead">Luckily, I was finishing up work for the Christmas holidays. I bought myself a stack of textbooks and told myself version 1.0 would be built before I returned to work. I devoured the textbooks and a number of online tutorials and had soon wrapped my head around intents, activities, fragments, adapters, permissions and all things Android (well enough to build my own app anyway).</p>	
+        	<p class="lead">I utilised the same design principles as I did for iOS. The most important consideration remained the end user experience. Keep things simple, and include everything. I was determined to embrace Android rather than try to mimick my iOS version. I studied Android's Material Design guidelines and trialed a number of options before settling on my final design. One month after beginning my Android journey, I released v1.1 of Pocket Papers to the Play Store.</p>          
+        </div>
+        <div class="col-md-6">
+        	<img class="featurette-image img-responsive center-block" src="../img/a.png" alt="Android">       
+        </div>
+    </div>
 
   	<footer class="container">
   		<div class="row">
