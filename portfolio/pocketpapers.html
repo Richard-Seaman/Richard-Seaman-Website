@@ -121,7 +121,7 @@
 		<!--/ API -->
         <div class="row featurette">
 	        <div class="col-md-6">
-				<h2 class="featurette-heading">Make the Data Available</h2>
+				<h2 class="featurette-heading">API</h2>
             	<p class="lead">With a trove of neatly arranged material available and a database to match, it was time to implement the API.</p>
 				<p class="lead">I opted for a shared hosting package (with Register365) that was reasonably priced and offered unlimited bandwidth / databases etc. I used an FTP solution (Filezilla) to upload all of the aquired material and imported my SQL database within phpMyAdmin.<p> 
 				<p class="lead">I developed a RESTful API for my apps to access the data. I developed the API locally (using MAMP) before making it live. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.<p>
@@ -193,7 +193,7 @@ $conn->close();
 					<h2 class="featurette-heading">iOS Development</h2>
 	            	<p class="lead">Now for the really fun stuff!</p>
 					<p class="lead">During the early concept stage I had designed and laid out my storyboard. Every screen and transistion had been mapped out so it was just a case of coding it up and getting the polish out. My focus remained on ensuring the user could get to anything they wanted with the minimum number of taps. <p> 
-					<p class="lead">Once I had the app working within Xcode and on simulators, I moved on to actual iOS devices. The app is available on iPhone, iPad and iPod touch. Every screen size and orientation was tested and re-tested.<p>
+					<p class="lead">Once I had the app working within Xcode on simulators, I moved on to actual iOS devices. The app is available on iPhone, iPad and iPod touch. Every screen size and orientation was tested and re-tested.<p>
 	            	<p class="lead"></p>				          
 		        </div>
 		        <div class="col-md-6">
@@ -206,7 +206,7 @@ $conn->close();
 	        <div class="row">
 		        <div class="col-md-6">
 	            	<p class="lead">Obviously, you can never foresee every issue and the final design will always differ slightly from the initial (and continously develop over time).</p>
-					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).<p> 
+					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. For example, I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).<p> 
 					<p class="lead">The App Store screenshots provided show the most up to date design of the app.<p>
 	            	<p class="lead"></p>				          
 		        </div>
@@ -265,9 +265,9 @@ $conn->close();
         <div class="col-md-6">
 			<h2 class="featurette-heading">Business Model</h2>
         	<p class="lead">I knew that I would have to implement some form of business model if Pocket Papers was to be sustainable. I had already incurred a number of expenses between software packages, hardware (devices) and renting a server. Between the Leaving and Junior Certificates, there's a guaranteed throughput of approximately 120,000 students each year. Not to mention all of the teachers. It's a significant, stable market.</p>
-			<p class="lead">I toyed around with (and implemented) a number of business models. I briefly considered using ads but I'm not a big fan of them (I also don't think I've ever clicked on one...). I also considered an annual subscription service but ruled it out as most students will only use it for a year or two anyway. Better to avoid the complexity of subscription services (especially since StoreKit is less than helpful with them). Customers are also more likely to purchase if it's a once off cost, particularly teachers who can use it year after year.<p> 
+			<p class="lead">I toyed around with (and implemented) a number of business models. I briefly considered using ads but I'm not a big fan of them (I also don't think I've ever clicked on one...). I also considered an annual subscription service but ruled it out as most students will only use it for a year or two anyway. Better to avoid the complexity of subscription services (especially since StoreKit is less than helpful with them). Customers are also more likely to purchase it if it's a once off cost, particularly teachers who can use it year after year.<p> 
 			<p class="lead">I decided to go with a freemium model. Users could download the app and use all of the latest year's content for free. This allowed them to familiarise themselves with the app before committing to a purchase. If they wished, they could then purchase <span class="quote">Premium Access</span> which unlocks all of the content for every year for every subject for life.<p>
-        	<p class="lead">I thought about managing the purchases myself but I prefer to avoid sign-in screens if possible (for the UX, not the technicalities). Being responsible for transactions didn't appeal to me very much. However, neither did Apple's 30% take. In the end I bit the bullet and implemented a non-consumable in-app purchase, as per Apple's guidelines. I suppose all of their development, distribution and analysis tools are worth the 30%.</p>				          
+        	<p class="lead">I thought about managing the purchases myself but I prefer to avoid sign-in screens if possible (for the UX, not the technicalities). Being responsible for transactions didn't appeal to me very much. However, neither did Apple's 30% take. In the end, I bit the bullet and implemented a non-consumable in-app purchase, as per Apple's guidelines. I suppose all of their development, distribution and analysis tools are worth the 30%.</p>				          
         </div>
         <div class="col-md-6">
         	<img class="featurette-image img-responsive center-block" src="../img/business.png" alt="Itunes Connect">       
@@ -282,7 +282,7 @@ $conn->close();
         	<p class="lead">I launched Pocket Papers for iOS in April 2015. However, launching an app is only the beginning. I needed to market it!</p>
 			<p class="lead">First things first, get a <a href="http://www.pocketpapers.ie" target="_blank">website</a> up and running, complete with a contact page for customer support. And do it fast. Thank you very much Wordpress.</p> 
 			<p class="lead">Next up, populate it with nice screenshots and a demonstrational video. I did this using software such as iMovie, Logoist 2, Paint 2 and Promotee. I also set up an App page on facebook and ran a number of paid advertisment campaigns.</p>
-        	<p class="lead">I created a promotional poster and printed out and laminated a few hundred A3 copies. I visited schools around my local area and gave presentations to students and teachers, making sure to leave behind a few posters every where I went.</p>
+        	<p class="lead">I created a promotional poster and printed out and laminated a few hundred A3 copies. I visited schools around my local area and gave presentations to students and teachers, making sure to leave behind a few posters everywhere I went.</p>
         	<p class="lead">I contacted various media agencies and was delighted to be featured in The Journal's <a href="http://www.thejournal.ie/5-apps-31st-oct-2015-2416910-Oct2015/"  target="_blank">"5 apps worth downloading this week"</a> article in October 2015.</p>	
         	<p class="lead">The most technical form of marketing was another piece of Excel Wizardry. I found a website which teachers use to apply for jobs in schools around the country. It has details for every secondary school in the country including principal's name, contact number, school address and email address. Jackpot!! I wrote a program to scrape the required information and send off an email to each school. I was suprised with the number of responses (I was afraid I'd end up in the spam folder). Soon, schools all over the country were benefitting from Pocket Papers.</p>		          
         </div>
@@ -293,14 +293,81 @@ $conn->close();
 	
 	<!--/ Android -->
     <div class="row featurette">
+		
         <div class="col-md-6">
 			<h2 class="featurette-heading">Demand for Android</h2>
         	<p class="lead">With the sucess of Pocket Papers on iOS came the demand for an Android release. Android accounted for a significant chunk of my market, not having Pocket Papers available for it simply wasn't an option. There was one issue though. I had hardly ever used an Android device, never mind written an app for one.</p>
-        	<p class="lead">Luckily, I was finishing up work for the Christmas holidays. I bought myself a stack of textbooks and told myself version 1.0 would be built before I returned to work. I devoured the textbooks and a number of online tutorials and had soon wrapped my head around intents, activities, fragments, adapters, permissions and all things Android (well enough to build my own app anyway).</p>	
+        	<p class="lead">Luckily, I was finishing up work for the Christmas holidays. I bought myself a pile of textbooks and promised myself that version 1.0 would be built before I returned to work. I devoured the textbooks and a number of online tutorials and had soon wrapped my head around intents, activities, fragments, adapters, permissions and all things Android (well enough to build my own app anyway).</p>	
         	<p class="lead">I utilised the same design principles as I did for iOS. The most important consideration remained the end user experience. Keep things simple, and include everything. I was determined to embrace Android rather than try to mimick my iOS version. I studied Android's Material Design guidelines and trialed a number of options before settling on my final design. One month after beginning my Android journey, I released v1.1 of Pocket Papers to the Play Store.</p>          
         </div>
+		
         <div class="col-md-6">
-        	<img class="featurette-image img-responsive center-block" src="../img/a.png" alt="Android">       
+		    <!-- Carousel
+		    ================================================== -->
+		    <div id="androidCarousel" class="carousel slide col-md-12" data-ride="carousel">
+		      <!-- Indicators -->
+		      <ol class="carousel-indicators">
+		        <li data-target="#androidCarousel" data-slide-to="0" class="active"></li>
+		        <li data-target="#androidCarousel" data-slide-to="1"></li>
+		        <li data-target="#androidCarousel" data-slide-to="2"></li>
+		        <li data-target="#androidCarousel" data-slide-to="3"></li>
+		        <li data-target="#androidCarousel" data-slide-to="4"></li>
+		        <li data-target="#androidCarousel" data-slide-to="5"></li>
+		        <li data-target="#androidCarousel" data-slide-to="6"></li>
+		        <li data-target="#androidCarousel" data-slide-to="7"></li>
+		      </ol>
+		      <div class="carousel-inner" role="listbox">
+	  	        <div class="item active">
+	  	          <img src="../img/Android/Android1.png" alt="Android1">
+	  	        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android2.png" alt="Android2">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android3.png" alt="Android3">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android4.png" alt="Android4">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android5.png" alt="Android5">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android6.png" alt="Android6">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android7.png" alt="Android7">
+		        </div>
+		        <div class="item">
+	  	          <img src="../img/Android/Android8.png" alt="Android8">
+		        </div>
+		      <a class="left carousel-control" href="#androidCarousel" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="right carousel-control" href="#androidCarousel" role="button" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
+		  	</div>
+		   </div><!-- /.carousel -->       
+        </div>       
+    </div>
+	
+	
+	<!--/ So Far -->
+    <div class="row featurette">
+        <div class="col-md-6">
+			<h2 class="featurette-heading">The Story So Far...</h2>
+        	<p class="lead">In it's first year of operation, Pocket Papers has been used by over 3,000 students and teachers.</p>
+			<p class="lead">I continously develop Pocket Papers and have added a number of additional features since it's initial launch. For example, I added some fun colour and backpack selection options to the iOS app. I also refined the file management system to improve it's efficiency and speed.</p> 
+        	<p class="lead">The most sought after feature however, was the ability to search previous material by topic. This would allow a student to practice all of the previous questions for a particular topic rather than routing through past papers to find the relevant questions.</p>  
+        	<p class="lead">Easier said than done! The difficulty isn't with the programming technicalities but with the additional content collation required. In order to provide this facility, every subject's documents must be further sub divided and assigned into various topics. A single past paper could have up to 15 questions with each year having multiple papers for every level and language.</p>  
+        	<p class="lead">I definately wasn't going to manually crop thousands of documents. I automated much of the work with some more Excel Wizardry. I built an Excel based interface for mass splitting, merging and cropping of PDF files. The interface also collated the resulting content and exported an SQL database file (of questions and their associated topics). Unfortunately there is still some manual input required. It is impossible to tell where each question ends as the would be search terms and layouts change year on year.</p>  
+        	<p class="lead">At the moment, I'm adding to the number of topics available for students. I'm also pushing updates as required by Apple and Android system updates.</p>        
+        </div>
+        <div class="col-md-6">
+        	<img class="featurette-image img-responsive center-block" src="../img/Topics.png" alt="Topics">       
         </div>
     </div>
 
