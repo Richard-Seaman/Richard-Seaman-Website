@@ -36,6 +36,13 @@ img.profile {
 	margin-bottom:40px;
 }
 
+img.summary-image {
+	height:200px;
+	width: 200px;
+  	-webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+	border-radius:10px;
+  	background-color: #E7E8E8;	
+}
 
 /* Featurettes
 ------------------------- */
@@ -45,6 +52,11 @@ img.profile {
   padding-top:40px;
   padding-bottom:40px;
   border-bottom: 1px solid #bbb;
+}
+
+/* Remove the bottom border on the last feature */
+.last-featurette {
+  border-bottom: 0px;	
 }
 
 
@@ -117,5 +129,6 @@ p.caption {
   height: 500px;
   
 }
+
 
 

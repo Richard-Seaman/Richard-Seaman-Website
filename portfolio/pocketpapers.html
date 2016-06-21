@@ -41,7 +41,7 @@
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Apps</li>
                 <li><a href="../portfolio/pocketpapers.html">Pocket Papers</a></li>
-                <li><a href="#">Pocket TGD</a></li>
+                <li><a href="../portfolio/pockettgd.html">Pocket TGD</a></li>
                 <li><a href="#">Building Services Toolbox</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Excel Wizardry</li>
@@ -78,9 +78,9 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">Time for Change</h2>
             	<p class="lead">When my younger sister was studying for her Junior Certificate, I saw her using the same poorly designed website I had used over 10 years ago to access past papers. I was amazed that nobody had fixed it yet!</p>
-				<p class="lead">I did some research and quickly discovered that students and teachers alike were fed up with www.examinations.ie (the official source of past papers).<p> 
-				<p class="lead">It was time for somebody to do something.<p>
-				<p class="lead">It was time for <span class="quote">Pocket Papers</span>.<p>            
+				<p class="lead">I did some research and quickly discovered that students and teachers alike were fed up with www.examinations.ie (the official source of past papers).</p> 
+				<p class="lead">It was time for somebody to do something.</p>
+				<p class="lead">It was time for <span class="quote">Pocket Papers</span>.</p>            
 	        </div>
 			<!--/ Video -->
 	        <div class="col-md-6">
@@ -95,9 +95,9 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">To the Drawing Board</h2>
             	<p class="lead">The most important part of any <span class="quote">nerding station</span>; the blank canvas. Before writing any code, I always put pen to paper (or marker to board).</p>
-				<p class="lead">I believe the most important consideration for any app is the end user experience. Simple is beautiful. Everything else is secondary. Unfortunately, simple is not always easy.<p> 
-				<p class="lead">I set a goal for myself:<br>Anything the user wants should be no more than 3 taps away and ALL of the past examination material needs to be available.<p>
-				<p class="lead">This goal ultimately shaped both the front and back end of the app and allowed me to start drawing.<p>            
+				<p class="lead">I believe the most important consideration for any app is the end user experience. Simple is beautiful. Everything else is secondary. Unfortunately, simple is not always easy.</p> 
+				<p class="lead">I set a goal for myself:<br>Anything the user wants should be no more than 3 taps away and ALL of the past examination material needs to be available.</p>
+				<p class="lead">This goal ultimately shaped both the front and back end of the app and allowed me to start drawing.</p>            
 	        </div>
 	        <div class="col-md-6">
             	<img class="featurette-image img-responsive center-block" src="../img/whiteboard.JPG" alt="White Board">       
@@ -109,8 +109,8 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">Content Collation</h2>
             	<p class="lead">So what exactly does <span class="quote">"All of the past examination material"</span> consist of?</p>
-				<p class="lead">Turns out it's quite a lot. Over 40 Leaving Certificate subjects and 25 Junior Certificate subjects. Each subject has higher and ordinary levels and some also have a foundation level. Some subjects have multiple papers each year (such as maths papers 1 & 2). All of the language subjects have aural exams that require an audio mp3 file to answer. Some subjects have additional content such as ordinance survey maps for geography. There's over 15 years worth of content to get through. And by the way, everything is also available in irish. All in all, there's thousands and thousand of documents to be gathered and collated.<p> 
-				<p class="lead">I decided that instead of simply pointing in the right direction of the content, I was going to host it myself. This would give me full control of the content and would elimate my reliance on a third party's website. (This decision came after the SEC <span class="quote">attempted</span> to prevent their website being used for exactly this purpose, but that's another story...)<p>
+				<p class="lead">Turns out it's quite a lot. Over 40 Leaving Certificate subjects and 25 Junior Certificate subjects. Each subject has higher and ordinary levels and some also have a foundation level. Some subjects have multiple papers each year (such as maths papers 1 & 2). All of the language subjects have aural exams that require an audio mp3 file to answer. Some subjects have additional content such as ordinance survey maps for geography. There's over 15 years worth of content to get through. And by the way, everything is also available in irish. All in all, there's thousands and thousand of documents to be gathered and collated.</p> 
+				<p class="lead">I decided that instead of simply pointing in the right direction of the content, I was going to host it myself. This would give me full control of the content and would elimate my reliance on a third party's website. (This decision came after the SEC <span class="quote">attempted</span> to prevent their website being used for exactly this purpose, but that's another story...)</p>
             	<p class="lead">The official website is tedious to use. Luckily, programs don't mind tedious tasks. I used some of my excel wizardry (Visual Basic) to scrape the website and automatically download and collate the majority of the material. There was still some manual collation required but the work was massively reduced. The end result was an SQL file ready to be imported to a database. It was also a tool that could be used year after year to grab new examination material once it's released. Sweet!</p>				          
 	        </div>
 	        <div class="col-md-6">
@@ -123,8 +123,8 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">API</h2>
             	<p class="lead">With a trove of neatly arranged material available and a database to match, it was time to implement the API.</p>
-				<p class="lead">I opted for a shared hosting package (with Register365) that was reasonably priced and offered unlimited bandwidth / databases etc. I used an FTP solution (Filezilla) to upload all of the aquired material and imported my SQL database within phpMyAdmin.<p> 
-				<p class="lead">I developed a RESTful API for my apps to access the data. I developed the API locally (using MAMP) before making it live. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.<p>
+				<p class="lead">I opted for a shared hosting package (with Register365) that was reasonably priced and offered unlimited bandwidth / databases etc. I used an FTP solution (Filezilla) to upload all of the aquired material and imported my SQL database within phpMyAdmin.</p> 
+				<p class="lead">I developed a RESTful API for my apps to access the data. I developed the API locally (using MAMP) before making it live. The apps would POST a request to a particular php file on the server, which in turn would spit out the requested data in JSON format.</p>
             	<p class="lead">Easy.</p>				          
 	        </div>
 	        <div class="col-md-6">
@@ -192,9 +192,8 @@ $conn->close();
 		        <div class="col-md-6">
 					<h2 class="featurette-heading">iOS Development</h2>
 	            	<p class="lead">Now for the really fun stuff!</p>
-					<p class="lead">During the early concept stage I had designed and laid out my storyboard. Every screen and transistion had been mapped out so it was just a case of coding it up and getting the polish out. My focus remained on ensuring the user could get to anything they wanted with the minimum number of taps. <p> 
-					<p class="lead">Once I had the app working within Xcode on simulators, I moved on to actual iOS devices. The app is available on iPhone, iPad and iPod touch. Every screen size and orientation was tested and re-tested.<p>
-	            	<p class="lead"></p>				          
+					<p class="lead">During the early concept stage I had designed and laid out my storyboard. Every screen and transistion had been mapped out so it was just a case of coding it up and getting the polish out. My focus remained on ensuring the user could get to anything they wanted with the minimum number of taps. </p> 
+					<p class="lead">Once I had the app working within Xcode on simulators, I moved on to actual iOS devices. The app is available on iPhone, iPad and iPod touch. Every screen size and orientation was tested and re-tested.</p>			          
 		        </div>
 		        <div class="col-md-6">
 	            	<img class="featurette-image img-responsive center-block" src="../img/iOSDev-content.png" alt="Sketch vs Final">       
@@ -206,8 +205,8 @@ $conn->close();
 	        <div class="row">
 		        <div class="col-md-6">
 	            	<p class="lead">Obviously, you can never foresee every issue and the final design will always differ slightly from the initial (and continously develop over time).</p>
-					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. For example, I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).<p> 
-					<p class="lead">The App Store screenshots provided show the most up to date design of the app.<p>
+					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. For example, I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).</p> 
+					<p class="lead">The App Store screenshots provided show the most up to date design of the app.</p>
 	            	<p class="lead"></p>				          
 		        </div>
 		        <div class="col-md-6">
@@ -265,8 +264,8 @@ $conn->close();
         <div class="col-md-6">
 			<h2 class="featurette-heading">Business Model</h2>
         	<p class="lead">I knew that I would have to implement some form of business model if Pocket Papers was to be sustainable. I had already incurred a number of expenses between software packages, hardware (devices) and renting a server. Between the Leaving and Junior Certificates, there's a guaranteed throughput of approximately 120,000 students each year. Not to mention all of the teachers. It's a significant, stable market.</p>
-			<p class="lead">I toyed around with (and implemented) a number of business models. I briefly considered using ads but I'm not a big fan of them (I also don't think I've ever clicked on one...). I also considered an annual subscription service but ruled it out as most students will only use it for a year or two anyway. Better to avoid the complexity of subscription services (especially since StoreKit is less than helpful with them). Customers are also more likely to purchase it if it's a once off cost, particularly teachers who can use it year after year.<p> 
-			<p class="lead">I decided to go with a freemium model. Users could download the app and use all of the latest year's content for free. This allowed them to familiarise themselves with the app before committing to a purchase. If they wished, they could then purchase <span class="quote">Premium Access</span> which unlocks all of the content for every year for every subject for life.<p>
+			<p class="lead">I toyed around with (and implemented) a number of business models. I briefly considered using ads but I'm not a big fan of them (I also don't think I've ever clicked on one...). I also considered an annual subscription service but ruled it out as most students will only use it for a year or two anyway. Better to avoid the complexity of subscription services (especially since StoreKit is less than helpful with them). Customers are also more likely to purchase it if it's a once off cost, particularly teachers who can use it year after year.</p> 
+			<p class="lead">I decided to go with a freemium model. Users could download the app and use all of the latest year's content for free. This allowed them to familiarise themselves with the app before committing to a purchase. If they wished, they could then purchase <span class="quote">Premium Access</span> which unlocks all of the content for every year for every subject for life.</p>
         	<p class="lead">I thought about managing the purchases myself but I prefer to avoid sign-in screens if possible (for the UX, not the technicalities). Being responsible for transactions didn't appeal to me very much. However, neither did Apple's 30% take. In the end, I bit the bullet and implemented a non-consumable in-app purchase, as per Apple's guidelines. I suppose all of their development, distribution and analysis tools are worth the 30%.</p>				          
         </div>
         <div class="col-md-6">
@@ -356,20 +355,34 @@ $conn->close();
 	
 	
 	<!--/ So Far -->
-    <div class="row featurette">
+    <div class="row featurette last-featurette">
         <div class="col-md-6">
-			<h2 class="featurette-heading">The Story So Far...</h2>
+			<h2 class="featurette-heading">Onwards and Upwards...</h2>
         	<p class="lead">In it's first year of operation, Pocket Papers has been used by over 3,000 students and teachers.</p>
 			<p class="lead">I continously develop Pocket Papers and have added a number of additional features since it's initial launch. For example, I added some fun colour and backpack selection options to the iOS app. I also refined the file management system to improve it's efficiency and speed.</p> 
         	<p class="lead">The most sought after feature however, was the ability to search previous material by topic. This would allow a student to practice all of the previous questions for a particular topic rather than routing through past papers to find the relevant questions.</p>  
         	<p class="lead">Easier said than done! The difficulty isn't with the programming technicalities but with the additional content collation required. In order to provide this facility, every subject's documents must be further sub divided and assigned into various topics. A single past paper could have up to 15 questions with each year having multiple papers for every level and language.</p>  
-        	<p class="lead">I definately wasn't going to manually crop thousands of documents. I automated much of the work with some more Excel Wizardry. I built an Excel based interface for mass splitting, merging and cropping of PDF files. The interface also collated the resulting content and exported an SQL database file (of questions and their associated topics). Unfortunately there is still some manual input required. It is impossible to tell where each question ends as the would be search terms and layouts change year on year.</p>  
+        	<p class="lead">I definately wasn't going to manually crop thousands of documents. I automated much of the work with some more Excel Wizardry. I built an Excel based interface for mass splitting, merging and cropping of PDF files. The interface also collated the resulting content and exported an SQL database file (of questions and their associated topics). Unfortunately there is still some manual input required. It is impossible to tell where each question ends as the would be search terms and layouts change from paper to paper and from year to year.</p>  
         	<p class="lead">At the moment, I'm adding to the number of topics available for students. I'm also pushing updates as required by Apple and Android system updates.</p>        
         </div>
         <div class="col-md-6">
         	<img class="featurette-image img-responsive center-block" src="../img/Topics.png" alt="Topics">       
         </div>
-    </div>
+    </div>	
+	
+	
+	<!--/ Project Links -->
+  	<section class="jumbotron">
+	  	<div class="container">
+		  	<div class="row text-center">
+				<img class="profile" src="../img/PocketPapers.png"/>	
+				<div class="badge-container">
+					<a class="badge" target="_blank" href="https://itunes.apple.com/us/app/pocket-papers-leaving-certificate/id1013587533?ls=1&mt=8"><img src="../img/appstore.png"></a>
+					<a class="badge" target="_blank" href="https://play.google.com/store/apps/details?id=com.richapps.pocketpapers"><img src="../img/playstore.png"></a>
+				</div>					
+    		</div>
+  		</div>
+  	</section>
 
   	<footer class="container">
   		<div class="row">

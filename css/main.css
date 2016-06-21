@@ -60,3 +60,25 @@ footer ul {
 .quote {
 	font-style: italic;	
 }
+
+
+/* Store badges */
+
+.badge-container {
+	text-align:center;
+	width:auto;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+a.badge {
+	margin:0px;
+	padding:0px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+a.badge img {
+	height: 45px; 
+	width:auto;
+}
