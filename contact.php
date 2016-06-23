@@ -4,8 +4,8 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'richard@pocketpapers.ie'; 
-		$to = 'rdgseaman@gmail.com'; 
+		$from = 'website@richardseaman.ie'; 
+		$to = 'richard@richardseaman.ie'; 
 		$subject = 'Message from Portfolio Website';
 		
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
@@ -46,6 +46,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <head>
   	<title>Contact</title>
   	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
@@ -79,16 +80,16 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             <li class="dropdown">
               <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio.html">Overview</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Apps</li>
-                <li><a href="portfolio/pocketpapers.html">Pocket Papers</a></li>
-                <li><a href="#">Pocket TGD</a></li>
-                <li><a href="#">Building Services Toolbox</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Excel Wizardry</li>
-                <li><a href="#">Ayla</a></li>
-                <li><a href="#">Email Filer</a></li>
+               <li><a href="portfolio.html">Overview</a></li>
+               <li role="separator" class="divider"></li>
+               <li class="dropdown-header">Apps</li>
+               <li><a href="portfolio/pocketpapers.html">Pocket Papers</a></li>
+                <li><a href="portfolio/pockettgd.html">Pocket TGD</a></li>
+               <li><a href="dev.html">Building Services Toolbox</a></li>
+               <li role="separator" class="divider"></li>
+               <li class="dropdown-header">Excel Wizardry</li>
+               <li><a href="dev.html">Ayla</a></li>
+               <li><a href="dev.html">Email Filer</a></li>
               </ul>
             </li>
             <li><a href="education.html">EDUCATION</a></li>
