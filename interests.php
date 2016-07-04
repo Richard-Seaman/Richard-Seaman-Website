@@ -44,6 +44,7 @@
 	        <li data-target="#myCarousel" data-slide-to="9"></li>
 	        <li data-target="#myCarousel" data-slide-to="10"></li>
 	        <li data-target="#myCarousel" data-slide-to="11"></li>
+	        <li data-target="#myCarousel" data-slide-to="12"></li>
 	      </ol>
 	      <div class="carousel-inner" role="listbox">
   	        <div class="item active">
@@ -106,15 +107,23 @@
 	          <img src="img/nyc.jpg" alt="NYC">
 	          <div class="container">
 	            <div class="carousel-caption">
-	              <h1>City breaks</h1>
+	              <h1>Seeing the big cities</h1>
 	            </div>
 	          </div>
 	        </div>	
 	        <div class="item">
+	          <img src="img/camels.png" alt="Morrocco">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>Exotic treks</h1>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="item">
 	          <img src="img/grandCanyon.jpg" alt="Grand Canyon">
 	          <div class="container">
 	            <div class="carousel-caption">
-	              <h1>And more remote locations...</h1>
+	              <h1>Dangling my feet off the edge...</h1>
 	            </div>
 	          </div>
 	        </div>
@@ -130,7 +139,7 @@
 	          <img src="img/nightOut.jpg" alt="Night Out">
 	          <div class="container">
 	            <div class="carousel-caption">
-	              <h1>Or a more typical night out</h1>
+	              <h1>Enjoying a pint with friends</h1>
 	            </div>
 	          </div>
 	        </div>

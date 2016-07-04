@@ -27,8 +27,7 @@
   min-width: 100%;
   object-fit: cover;
   overflow: hidden;
-  height: 500px;
-  
+  height: 500px;  
 }
 
 
@@ -37,6 +36,20 @@
 .featurette {
   margin-left: 50px; 
   margin-right: 50px; 
+}
+
+@media (max-width: 750px) {
+  .featurette {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .featurette {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
 }
 
 .featurette-divider {

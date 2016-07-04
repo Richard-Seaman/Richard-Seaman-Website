@@ -26,14 +26,12 @@
 
 	<div class="content">
 		
-		<div class="bg"></div>
-		
-	    <div class="jumbotron" style="background: url(img/ucdGrad.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
-	      <div class="container">
-	      </div>
-	    </div>
-		
 	    <div class="container">
+			
+  	      <div class="row text-center">
+			  <img class="coverImage" src="img/ucdGrad.jpg" alt="Graduation"/>	
+  	      </div>
+		  
   	      <div class="row">
 	        <p class="caption"><span class="quote">"I'm the one with the hat and the black eye"</span><br>Richard Seaman, MEng. BEng.</p>
   	      </div>

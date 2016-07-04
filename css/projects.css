@@ -48,10 +48,24 @@ img.summary-image {
 ------------------------- */
 .featurette {
   margin-left: 50px; 
-  margin-right: 50px; 
+  margin-right: 50px;  
   padding-top:40px;
   padding-bottom:40px;
   border-bottom: 1px solid #bbb;
+}
+
+@media (max-width: 750px) {
+  .featurette {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .featurette {
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
 }
 
 /* Remove the bottom border on the last feature */

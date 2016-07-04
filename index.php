@@ -39,7 +39,7 @@
   
 	  	<section id="main_buttons" class="container">
 	    	<div class="row text-center">
-				<a href="portfolio.html">
+				<a href="portfolio.php">
 	      	  		<figure class="col-md-3 col-sm-3 col-xs-6">
 	        			<p>PORTFOLIO</p>
 						<div class="shakeable">
@@ -47,7 +47,7 @@
 						</div>
 	    			</figure>
 				</a>
-				<a href="education.html">
+				<a href="education.php">
 	    			<figure class="col-md-3 col-sm-3 col-xs-6">
 	     				<p>EDUCATION</p>
 						<div class="shakeable">
@@ -55,7 +55,7 @@
 						</div>
 	    			</figure>
 				</a>
-				<a href="interests.html">
+				<a href="interests.php">
 	      	  		<figure class="col-md-3 col-sm-3 col-xs-6">
 	        			<p>INTERESTS</p>
 						<div class="shakeable">

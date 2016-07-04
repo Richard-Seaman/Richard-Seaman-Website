@@ -37,7 +37,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Swift - Java - PHP - SQL - Visual Basic - Graphic Design - Wordpress</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="portfolio/pocketpapers.html" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="portfolio/pocketpapers.php" role="button">Project Details &raquo;</a>
 				<a class="btn btn-lg btn-secondary" target="_blank" href="http://www.pocketpapers.ie" role="button">Visit Website</a>
 			</div>			
           </div>
@@ -59,7 +59,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Swift - Java - Graphic Design</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="portfolio/pockettgd.html" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="portfolio/pockettgd.php" role="button">Project Details &raquo;</a>
 				<a class="btn btn-lg btn-secondary" target="_blank" href="http://www.bdp.com/en/locations/ireland/pocket-tgd/"  role="button">Visit Website</a>
 			</div>			
           </div>
@@ -81,7 +81,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Swift - Graphic Design</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="#" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">
@@ -101,7 +101,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Visual Basic (Excel Wizardry)</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="#" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">
@@ -120,7 +120,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Visual Basic (More Excel Wizardry)</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="#" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">

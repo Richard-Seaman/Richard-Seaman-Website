@@ -68,7 +68,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 	<div class="content">
 		
-	  		<div class="row">
+	  		<div class="contactDiv row">
 	  			<div class="col-md-6 col-md-offset-3">
 	  				<h1 class="page-header text-center">Contact Richard</h1>
 					<form class="form-horizontal" role="form" method="post" action="contact.php">
@@ -113,6 +113,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					</form> 
 				</div>
 			</div>
+			
 		</div>	  	
 		
 	</div>
