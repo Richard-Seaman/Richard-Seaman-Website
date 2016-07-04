@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+	// Add the correct active naviagtion	
+	$('#navPortfolio').addClass('active');	
 	
 	// Animations for main buttons	
 	$('figure').hover(
@@ -9,7 +12,6 @@ $(document).ready(function() {
 	    function(){
 	        $(this).removeClass('figure_active');
 	    }
-	);
-	
+	);	
 
 });

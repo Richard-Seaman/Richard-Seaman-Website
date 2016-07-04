@@ -20,44 +20,9 @@
 </head>
 
 <body>
-
-
-   <!-- Fixed navbar -->
-   <nav class="navbar navbar-default navbar-fixed-top">
-     <div class="container">
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-         <a class="navbar-brand" href="index.html">Richard Seaman</a>
-       </div>
-       <div id="navbar" class="navbar-collapse collapse">
-         <ul class="nav navbar-nav">
-           <li class="active dropdown">
-             <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="portfolio.html">Overview</a></li>
-               <li role="separator" class="divider"></li>
-               <li class="dropdown-header">Apps</li>
-               <li><a href="portfolio/pocketpapers.html">Pocket Papers</a></li>
-                <li><a href="portfolio/pockettgd.html">Pocket TGD</a></li>
-               <li><a href="dev.html">Building Services Toolbox</a></li>
-               <li role="separator" class="divider"></li>
-               <li class="dropdown-header">Excel Wizardry</li>
-               <li><a href="dev.html">Ayla</a></li>
-               <li><a href="dev.html">Email Filer</a></li>
-             </ul>
-           </li>
-           <li><a href="education.html">EDUCATION</a></li>
-           <li><a href="interests.html">INTERESTS</a></li>
-           <li><a href="contact.php">CONTACT</a></li>
-         </ul>
-       </div><!--/.nav-collapse -->
-     </div>
-   </nav>
+	
+    <!-- Fixed navbar -->
+	<?php include('mainNav.html'); ?>
 
 	<div class="content">
 
@@ -183,30 +148,12 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
-
         <!-- /END THE PROJECTS -->
 		
 	</div>
-
-
-  	<footer class="container">
-  		<div class="row">
-    		<p class="col-sm-4">&copy; 2016 Richard Seaman</p>
-    		<ul class="col-sm-8">
-    			<li class="col-sm-1">
-					<a href="https://ie.linkedin.com/in/richard-seaman-9b4b1160" title="LinkedIn link">
-						<img class="social-icon" src="img/linkedIn.png" onmouseover="this.src='img/linkedIn-hover.png'" onmouseout="this.src='img/linkedIn.png'"/>
-					</a>
-				</li>
-    			<li class="col-sm-1">
-					<a href="https://github.com/Richard-Seaman" title="Github link">
-						<img class="social-icon" src="img/github.png" onmouseover="this.src='img/github-hover.png'" onmouseout="this.src='img/github.png'"/>
-					</a>
-				</li>
-    		</ul>
-  		</div>
-	</footer>
+	
+    <!-- Footer -->
+	<?php include('footer.html'); ?>
 
 
 </body>

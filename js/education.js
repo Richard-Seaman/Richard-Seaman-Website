@@ -7,3 +7,8 @@ function parallax(){
 $(window).scroll(function(e){
     parallax();
 });
+
+$(document).ready(function() {
+	// Add the correct active naviagtion	
+	$('#navEducation').addClass('active');	
+});

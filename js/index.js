@@ -1,5 +1,4 @@
-$(document).ready(function() {
-	
+$(document).ready(function() {	
 	// Animations for main buttons	
 	$('figure').hover(
 	    function(){
@@ -10,6 +9,4 @@ $(document).ready(function() {
 	        $(this).removeClass('figure_active');
 	    }
 	);
-	
-
 });
