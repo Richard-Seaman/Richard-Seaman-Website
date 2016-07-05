@@ -5,7 +5,8 @@
   	<title>Portfolio</title>
   	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
   	<link rel="stylesheet" type="text/css" href="../css/main.css">
@@ -155,7 +156,7 @@ $conn->close();
 		<!--/ iOS -->
         <div class="row featurette">
 
-	        <div class="row">
+	        <div class="row multifeature">				
 		        <div class="col-md-6">
 					<h2 class="featurette-heading">iOS Development</h2>
 	            	<p class="lead">Now for the really fun stuff!</p>
@@ -169,7 +170,7 @@ $conn->close();
 
 	        <div class="spacer"></div>
 
-	        <div class="row">
+	        <div class="row multifeature">
 		        <div class="col-md-6">
 	            	<p class="lead">Obviously, you can never foresee every issue and the final design will always differ slightly from the initial (and continously develop over time).</p>
 					<p class="lead">Sometimes it is necessary to iterate through a number of designs before arriving at the optimal. For example, I started with a tabbed bar app but moved to a home screen as new features were introduced. The subject papers and aurals were initially shown on separate tabs. With the introduction of the home screen, I took the opportunity to combine these features so that everything the user needed for a single subject was accessible from the same screen. In practice, this was an additional segmented control which updated a table view to show previous papers, previous aurals or available topics (particular questions).</p> 
@@ -180,50 +181,48 @@ $conn->close();
 				    <!-- Carousel
 				    ================================================== -->
 				    <div id="iOSCarousel" class="carousel slide col-md-12" data-ride="carousel">
-				      <!-- Indicators -->
-				      <ol class="carousel-indicators">
-				        <li data-target="#iOSCarousel" data-slide-to="0" class="active"></li>
-				        <li data-target="#iOSCarousel" data-slide-to="1"></li>
-				        <li data-target="#iOSCarousel" data-slide-to="2"></li>
-				        <li data-target="#iOSCarousel" data-slide-to="3"></li>
-				        <li data-target="#iOSCarousel" data-slide-to="4"></li>
-				        <li data-target="#iOSCarousel" data-slide-to="5"></li>
-				      </ol>
-				      <div class="carousel-inner" role="listbox">
-			  	        <div class="item active">
-			  	          <img src="../img/iOS/Home.png" alt="Home">
-			  	        </div>
-				        <div class="item">
-			  	          <img src="../img/iOS/Subjects.png" alt="Subjects">
-				        </div>
-				        <div class="item">
-			  	          <img src="../img/iOS/SubjectOptions.png" alt="Subject Content">
-				        </div>
-				        <div class="item">
-			  	          <img src="../img/iOS/Paper.png" alt="Paper">
-				        </div>
-				        <div class="item">
-			  	          <img src="../img/iOS/Content.png" alt="Content">
-				        </div>
-				        <div class="item">
-			  	          <img src="../img/iOS/Aural.png" alt="Aural">
-				        </div>
-				      <a class="left carousel-control" href="#iOSCarousel" role="button" data-slide="prev">
-				        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				        <span class="sr-only">Previous</span>
-				      </a>
-				      <a class="right carousel-control" href="#iOSCarousel" role="button" data-slide="next">
-				        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				        <span class="sr-only">Next</span>
-				      </a>
-				    </div><!-- /.carousel -->       
-		        </div>
-			    
-			</div>
-        </div>        
-		
-		
-	</div>
+				      	<!-- Indicators -->
+				      	<ol class="carousel-indicators">
+				        	<li data-target="#iOSCarousel" data-slide-to="0" class="active"></li>
+				        	<li data-target="#iOSCarousel" data-slide-to="1"></li>
+				        	<li data-target="#iOSCarousel" data-slide-to="2"></li>
+				        	<li data-target="#iOSCarousel" data-slide-to="3"></li>
+				        	<li data-target="#iOSCarousel" data-slide-to="4"></li>
+				        	<li data-target="#iOSCarousel" data-slide-to="5"></li>
+				      	</ol>
+				      	<div class="carousel-inner" role="listbox">
+				  	        <div class="item active">
+				  	          <img src="../img/iOS/Home.png" alt="Home">
+				  	        </div>
+					        <div class="item">
+				  	          <img src="../img/iOS/Subjects.png" alt="Subjects">
+					        </div>
+					        <div class="item">
+				  	          <img src="../img/iOS/SubjectOptions.png" alt="Subject Content">
+					        </div>
+					        <div class="item">
+				  	          <img src="../img/iOS/Paper.png" alt="Paper">
+					        </div>
+					        <div class="item">
+				  	          <img src="../img/iOS/Content.png" alt="Content">
+					        </div>
+					        <div class="item">
+				  	          <img src="../img/iOS/Aural.png" alt="Aural">
+					        </div>
+					      	<a class="left carousel-control" href="#iOSCarousel" role="button" data-slide="prev">
+					        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					        	<span class="sr-only">Previous</span>
+					      	</a>
+					      	<a class="right carousel-control" href="#iOSCarousel" role="button" data-slide="next">
+					        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					        	<span class="sr-only">Next</span>
+					      	</a>
+				    	</div><!-- carousel inner--> 						      
+		        	</div><!-- carousel-->
+				</div><!-- column-->				
+        	</div> <!-- row --> 
+			
+		</div><!-- featurette --> 
 	
 	
 	<!--/ Business Model -->

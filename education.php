@@ -5,7 +5,8 @@
   	<title>Education</title>
   	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
   	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -72,7 +73,7 @@
 					<li><p class="edLoc">Self taught</p></li>
 					<li><p class="edResult">-</p></li>
 					<li><img class="edImg" src="img/coding.png"  alt="Coding screen"/></li>
-					<li><a class="btn btn-lg btn-primary edButton" href="portfolio.html" role="button">Portfolio &raquo;</a></li>
+					<li><a class="btn btn-lg btn-primary edButton" href="portfolio.php" role="button">Portfolio &raquo;</a></li>
 				</ul>			
 			  
   	        </div>
