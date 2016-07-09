@@ -172,7 +172,113 @@
 			    	</div><!-- carousel inner--> 						      
 	        	</div><!-- carousel-->
 			</div><!-- column-->
-        </div>		
+        </div>	
+		
+		<!--/ Water Sizer -->
+        <div class="row featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">Water Demand</h2>
+            	<p class="lead">This calculator allows cold, hot, mains and rain water pipe sizes to be determined for a given number of outlets.</p>
+				<p class="lead">The user enters the number of outlets by using the plus and minus buttons or by typing the number directly. Any additional flowrates required may be entered by using the textfields provided at the bottom of the screen.</p> 
+				<p class="lead">Some outlets have a number of piping configurations. For example, a toilet may be fed by cold water or by rain water. The configuration may be toggled between by tapping on the pipe configuration indicator to the left of the outlet icon.</p>
+				<p class="lead">Once the number of outlets have been entered, the corresponding demand units and flowrates are calculated. The pipes are automatically sized and the results are displayed at the top of the screen.</p> 
+				<p class="lead">By tapping on the settings icon, the user can examine the methodology used. The demand units for each outlet configuration may be altered as required.</p>           
+	        </div>
+	        <div class="col-md-6">
+			    <!-- Carousel
+			    ================================================== -->
+			    <div id="waterCarousel" class="carousel slide col-md-12" data-ride="carousel">
+			      	<!-- Indicators -->
+			      	<ol class="carousel-indicators">
+			        	<li data-target="#waterCarousel" data-slide-to="0" class="active"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="1"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="2"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="3"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="4"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="5"></li>
+			        	<li data-target="#waterCarousel" data-slide-to="6"></li>
+			      	</ol>
+			      	<div class="carousel-inner" role="listbox">
+			  	        <div class="item active">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer0.png" alt="Water Sizer">
+			  	        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer1.png" alt="Water Sizer Calc 1">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer2.png" alt="Water Sizer Calc 2">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer3.png" alt="Water Sizer Calc 3">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer4.png" alt="Water Sizer Calc 4">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer5.png" alt="Water Sizer Method">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/WaterSizer6.png" alt="Water Sizer Demand Units">
+				        </div>
+				      	<a class="left carousel-control" href="#waterCarousel" role="button" data-slide="prev">
+				        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				        	<span class="sr-only">Previous</span>
+				      	</a>
+				      	<a class="right carousel-control" href="#waterCarousel" role="button" data-slide="next">
+				        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				        	<span class="sr-only">Next</span>
+				      	</a>
+			    	</div><!-- carousel inner--> 						      
+	        	</div><!-- carousel-->
+			</div><!-- column-->
+        </div>	
+		
+		<!--/ Daylight -->
+        <div class="row featurette last-featurette">
+	        <div class="col-md-6">
+				<h2 class="featurette-heading">Daylight Factor</h2>
+            	<p class="lead">This calculator allows a simplified daylight factor to be calculated. </p>
+				<p class="lead">The method used is based on rectangular rooms with windows on one side and is capable of handling basic obstructions.</p> 
+				<p class="lead">The user enters the room length, depth and height and the window length and height. The resulting daylight factor is calculated and displayed. The daylight factor achieved is compared against acceptable levels in schools for reference.</p>
+				<p class="lead"></p> 
+				<p class="lead">By tapping on the settings icon, the user can adjust the room and window parameters used such as surface reflectances and glazing transmittance. The adjustable parameters are described and shown in labelled diagrams. The user can also reset the default settings.</p>           
+	        </div>
+	        <div class="col-md-6">
+			    <!-- Carousel
+			    ================================================== -->
+			    <div id="daylightCarousel" class="carousel slide col-md-12" data-ride="carousel">
+			      	<!-- Indicators -->
+			      	<ol class="carousel-indicators">
+			        	<li data-target="#daylightCarousel" data-slide-to="0" class="active"></li>
+			        	<li data-target="#daylightCarousel" data-slide-to="1"></li>
+			        	<li data-target="#daylightCarousel" data-slide-to="2"></li>
+			        	<li data-target="#daylightCarousel" data-slide-to="3"></li>
+			      	</ol>
+			      	<div class="carousel-inner" role="listbox">
+			  	        <div class="item active">
+			  	          <img src="../img/iOS/Toolbox/Daylight0.png" alt="Daylight Calculator">
+			  	        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/Daylight1.png" alt="Daylight Calculator Settings 1">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/Daylight2.png" alt="Daylight Calculator Settings 2">
+				        </div>
+				        <div class="item">
+			  	          <img src="../img/iOS/Toolbox/Daylight3.png" alt="Daylight Calculator Settings 3">
+				        </div>
+				      	<a class="left carousel-control" href="#daylightCarousel" role="button" data-slide="prev">
+				        	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				        	<span class="sr-only">Previous</span>
+				      	</a>
+				      	<a class="right carousel-control" href="#daylightCarousel" role="button" data-slide="next">
+				        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				        	<span class="sr-only">Next</span>
+				      	</a>
+			    	</div><!-- carousel inner--> 						      
+	        	</div><!-- carousel-->
+			</div><!-- column-->
+        </div>
 		
 	<!--/ Project Links -->
   	<section class="jumbotron">

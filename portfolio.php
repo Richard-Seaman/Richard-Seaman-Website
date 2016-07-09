@@ -88,7 +88,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Swift - Graphic Design</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="portfolio/toolbox.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">
@@ -108,7 +108,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Visual Basic (Excel Wizardry)</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="dev.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">
@@ -127,7 +127,7 @@
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">Visual Basic (More Excel Wizardry)</p>
 			<div class="project-button-container">
-				<a class="btn btn-lg btn-primary" href="../dev.php" role="button">Project Details &raquo;</a>
+				<a class="btn btn-lg btn-primary" href="dev.php" role="button">Project Details &raquo;</a>
 			</div>			
           </div>
           <div class="col-md-5">
