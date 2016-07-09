@@ -6,7 +6,13 @@
   	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#44b1f8">
+	<meta name="theme-color" content="#44b1f8">
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
   	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -185,9 +191,7 @@
         <div class="row featurette">
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">Travelling</h2>
-            <p class="lead">Insert unique statement on your love of travel below: (* Required)</p>
-            <p class="lead quote">"I love to travel and experience new cultures"</p>
-            <p class="lead">Seriously though, does anybody not like getting away for awhile and seeing the world?</p>
+            <p class="lead">Like most people, I love getting away and seeing different parts of the world.</p>
             <p class="lead">A weekend break in Kinsale, a city break in Budapest, a week in the sun in Morocco, a summer in California...</p>
             <p class="lead">Wherever it is, sign me up!</p>
           </div>

@@ -6,7 +6,13 @@
   	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#44b1f8">
+	<meta name="theme-color" content="#44b1f8">
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>	
   	<link rel="stylesheet" type="text/css" href="../css/main.css">
@@ -351,7 +357,7 @@ $conn->close();
   	</section>
 	
     <!-- Footer -->
-	<?php include('../footer.html'); ?>
+	<?php include('../subFooter.html'); ?>
 
 </body>
 </html>
