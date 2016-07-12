@@ -120,7 +120,7 @@
 	        <div class="col-md-6">
 				<h2 class="featurette-heading">Pipe Sizer</h2>
             	<p class="lead">This calculator allows the user to size heating or cooling pipework</p>
-				<p class="lead">The user can set the maximum pressure drop to size to using the textbox in the header section at the top of the screen. They can also switch between heating and cooling and between steel and copper using the buttons provided.</p> 
+				<p class="lead">The user can set the maximum pressure drop to size to using the textfield in the header section at the top of the screen. They can also switch between heating and cooling and between steel and copper using the buttons provided.</p> 
 				<p class="lead">There are 6 optional load types that can be configured. To configure a load type, the user must first input the load or flowrate required. If the load is input, the flowrate will be overwritten and vice versa. Next, the quantity of this load type must be set using the textfield or increment buttons provided.</p>
 				<p class="lead">The pipe size and resulting variables for each load type are displayed to the right of the screen. The overal pipe size and resulting variables (for all loads in network) are displayed in the header section at the top of the screen.</p> 
 				<p class="lead">By tapping on the settings icon, the user can examine the methodology, parameters and formulae used. The parameters may be altered as required or reset to defaults.</p>           
