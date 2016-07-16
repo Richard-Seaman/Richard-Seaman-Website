@@ -142,7 +142,7 @@
         <div class="row featurette">
           <div class="col-md-7">
 			<h2 class="featurette-heading">This Website</h2>
-			<p class="lead">This isn't a wordpress website...<br>It's nothing fancy but feel free to examine the source</p>
+			<p class="lead">This isn't a wordpress website...<br>It's nothing fancy but feel free to examine the source or check it out on <a target="_blank" href="https://github.com/Richard-Seaman/Richard-Seaman-Website" title="Portfolio Github link">github</a>.</p>
 			<p class="lead subtitle">Skills Demonstrated</p>
 			<p class="lead skills quote">HTML - CSS - jQuery - Bootstrap - Graphic Design</p>
 			<div class="project-button-container">
